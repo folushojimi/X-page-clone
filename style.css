@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+   height: 100vh;
+  margin-top: 100px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.xlogo {
+  height: 340px;
+  margin-bottom: 50px;
+ color:whitesmoke
+}
+
+.page-title h1 {
+  margin-bottom: 35px;
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+  font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.page-title h3 {
+    margin-bottom: 35px;
+  font-size: 31px;
+  font-weight: 700;
+  color: white;
+  font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+/* side */
+.details{
+    margin-left: 100px;
+}
+
+/* all button */
+.all-buttons{
+   
+}
+
+/* social buttons */
+
+
+.google{
+background-color: white;
+height: 39px;
+width: 292px;
+border:1px solid white;
+border-radius: 20px;
+display: flex;
+gap: 7px;
+align-items: center;
+justify-content: center;
+font-size:14.2px;
+font-family: "Roboto", arial, sans-serif;
+margin-bottom: 8px;
+}
+
+.google:hover{
+    cursor: pointer;
+    background-color:#f1f1f1
+}
+
+.apple{
+    background-color: white;
+    height: 39px;
+    width: 292px;
+    border:1px solid white;
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size:14.2px;
+    font-family: "Roboto", arial, sans-serif;
+    font-weight: bold;
+}
+
+.apple:hover{
+    cursor: pointer;
+    background-color:#f1f1f1
+}
+
+.google-icon{
+height: 17.8px;
+width: 17.8px;
+}
+.apple-icon{
+    height: 20px;
+    width: 20px;
+}
+
+/* Line */
+.line {
+  border-bottom: 1.4px solid rgb(64, 64, 64);
+  width: 127px;
+  /* margin-top: 50px;    */
+  margin-top: 17px;
+  margin-bottom: 17px;
+
+}
+
+.holder {
+  display: flex;
+  align-items: baseline;
+  /* justify-content: center; */
+  gap: 10px;
+}
+
+.p {
+  color: white;
+  font-family: sans-serif;
+  text-align: justify;
+  position: relative;
+  top: 4.9px;
+ 
+  /* padding-top: 90px; */
+}
+
+
+.description{
+    color: grey;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size:11.12px;
+    font-stretch: expanded;
+    
+}
+
+.description a{
+     color:rgb(29, 155, 240);
+    text-decoration: none;
+}
+.description a:hover{
+    cursor: pointer;
+   text-decoration: underline;
+}
+
+
+/* Middle */
+.create_act{
+    background-color: white;
+    height: 39px;
+    width: 292px;
+    border:none;
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size:15px;
+    font-family: "Roboto", arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(29, 155, 240);
+    margin-bottom: 5px;
+}
+
+
+.create_act:hover{
+    cursor: pointer;
+    background-color:rgb(24, 143, 223);
+}
+
+/* Below */
+.already{
+    color: white;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+margin-top: 45px;
+margin-bottom: 18px;
+}
+
+.sign-in{
+    background-color: white;
+    height: 39px;
+    width: 292px;
+    border:1px solid rgba(154, 151, 151, 0.683);
+    border-radius: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size:15px;
+    font-family: "Roboto", arial, sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(29, 155, 240);
+}
+
+
+.sign-in:hover{
+    cursor: pointer;
+    background-color:rgb(24, 143, 223,0.1);
+}
+/* ALL FOOTER STYLING */
+
+/* ul{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+}
+
+ul a{
+    text-decoration: none;
+} */
+
+footer {
+    background-color:rgba(0, 0, 0, 0);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 42px;
+     
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+    color:grey;
+}
+
+ul li a {
+    color:grey;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    
+}
+ 
+.br{
+    margin-top: 5px;
+   
+}
+
+
+
+/* Media Query */
+@media only screen and (max-width:667px){
+
+    body{
+        margin-top: 30px;
+    }
+
+main{
+    display:block;
+    margin-left: 40px;
+
+}
+
+.xlogo{
+    height: 50px;
+}
+
+.details{
+    margin: 0;
+}
+
+
+.page-title h1{
+    font-size: 40px;
+    word-wrap: break-word;
+
+}
+
+.page-title h3{
+    font-size: 27px;
+    margin-bottom: 18px;
+}
+
+
+}
+
+
+@media only screen and (max-width:896px){
+
+    body{
+         
+    }
+}
